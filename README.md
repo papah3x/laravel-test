@@ -137,10 +137,6 @@ Below are real screenshots from this project (located in `./screenshots/`).
   
   ![Client dashboard](screenshots/guest-dashboard.png)
 
-- **Create booking (client quick action)**
-  
-  ![Create booking](screenshots/create-booking.png)
-
 - **Guest booking view**
   
   ![Guest booking](screenshots/guest-booking.png)
@@ -165,6 +161,10 @@ Below are real screenshots from this project (located in `./screenshots/`).
 - **Manager create property**
   
   ![Manager create property](screenshots/manager-create-prop.png)
+
+- **Create booking (Manager quick action)**
+  
+  ![Create booking](screenshots/create-booking.png)
 
 ## Further Improvements
 
