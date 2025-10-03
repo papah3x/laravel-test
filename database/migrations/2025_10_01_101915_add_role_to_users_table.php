@@ -16,16 +16,6 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('role')->default('client')->after('email'); // or after('id')
         });
-
-        // Insert a default manager user
-        DB::table('users')->insert([
-            'name' => 'Manager',
-            'email' => 'manager@example.com',
-            'role' => 'manager',
-            'password' => Hash::make('password'),
-            'created_at' => now(),
-            'updated_at' => now(),
-        ]);
     }
 
     /**
@@ -36,7 +26,5 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('role');
         });
-
-        DB::table('users')->where('email', 'manager@example.com')->delete();
     }
 };
