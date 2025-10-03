@@ -1,7 +1,5 @@
 # Real Estate Bookings – InnovQube Internship Task
 
-Below is the project documentation. The default Laravel README content has been removed to focus on this project.
-
 ## Important: .env setup (quick)
 
 Set these in your `.env` before running migrations:
@@ -175,7 +173,3 @@ Below are real screenshots from this project (located in `./screenshots/`).
 - Add Policies/Gates for role-based access at model level.
 - Notifications for booking confirmed/cancelled.
 - More tests: booking creation, price calc, overlap prevention.
-
-## Contact
-
-- Deliverables and documentation to: `rh@innovqube.com`
